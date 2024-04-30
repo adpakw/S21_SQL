@@ -84,4 +84,32 @@ insert into flights values(15,'B798MC97', current_date + interval '1 day', '10:0
 insert into flights values(16,'B447MC99', current_date - 4*interval '1 day', '06:00:00', 588, 50);
 insert into flights values(17,'B447MC99', current_date + interval '1 day', '08:00:00', 688, 0);
 
+insert into routes values(720, 'Самара', 'Саратов', '08:10:00', 660);
+insert into routes values(721, 'Саратов', 'Самара', '08:10:00', 660);
+insert into routes values(723, 'Самара', 'Саратов', '08:30:00', 590);
+insert into routes values(724, 'Саратов', 'Самара', '08:30:00', 590);
+
+insert into flights values(18,'B798MC97', current_date, '07:00:00', 177, 33);
+insert into flights values(19,'C447MC99', current_date, '15:40:00', 179, 19);
+
+insert into flights values(20,'H445TK197', current_date, '09:40:00', 832, 24);
+
+insert into routes values(301, 'Москва', 'Волгоград', '11:30:00', 1100.00);
+insert into routes values(302, 'Волгоград', 'Москва', '12:00:00', 1150.00);
+
+insert into routes values(909, 'Тверь', 'Коломна', '02:00:00', 150);
+insert into routes values(910, 'Коломна', 'Тверь', '02:00:00', 150);
+insert into flights values(21, 'H435TK177', current_date + interval '1 day', '10:30:00', 909, 30);
+
+insert into flights values(22, 'C447MC99', current_date + 2*interval '1 day', '06:20:00', 688, 52);
+insert into flights values(23, 'C447MC99', current_date + 1*interval '1 day', '06:20:00', 176, 52);
+
+insert into flights values(24, 'B335TK177',current_date + interval '1 day', '14:30:00', 179, 10);
+insert into flights values(25, 'B799MC97',current_date + interval '1 day', '00:30:00', 498, 30);
+
+insert into flights values(27,'B799MC97', current_date - interval '1 day', '20:00:00', 488, 3);
+
+insert into flights values(28,'C447MC99', current_date + interval '7 day', '12:00:00', 176, 52);
+
+insert into flights values(29, 'C447MC99',current_date - 1*interval '1 day', '07:00:00',  302, 49);
 -- commit;

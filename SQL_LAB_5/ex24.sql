@@ -1,6 +1,6 @@
 -- 24. Маршруты из Москвы, по которым нет рейсов на следующую неделю.
 
--- insert into flights values(28,'C447MC99', current_date + interval '7 day', '12:00:00', 176, 52);
+insert into flights values(28,'C447MC99', current_date + interval '7 day', '12:00:00', 176, 52);
 
 SELECT r.*
 FROM routes r
